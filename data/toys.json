@@ -8,9 +8,44 @@
         "price": 49.99,
         "rating": 4.5,
         "availableStock": 20,
-        "id": "SK1234",
         "discountPercentage": 10,
         "description": "The Chemistry Lab Deluxe Set is a comprehensive kit designed to introduce children to the exciting world of chemistry. It includes a variety of chemicals, test tubes, beakers, and other lab equipment, along with an informative guidebook. With this set, kids can conduct a wide range of experiments, exploring topics such as chemical reactions, acids and bases, and more. It's the perfect way to inspire curiosity and develop a love for science."
+    },
+    {
+        "toyName": "Biology Discovery Kit",
+        "picURL": "https://img.freepik.com/free-photo/top-view-science-elements-lab_23-2148697224.jpg?w=1380&t=st=1684507666~exp=1684508266~hmac=760ca57527416738e7c92c9bfcfe03eb200cda197df5fc9a2e907827991f6233",
+        "sellerName": "BioExplorers",
+        "sellerEmail": "info@bioexplorers.com",
+        "category": "Science Kits",
+        "price": 39.99,
+        "rating": 4.5,
+        "availableStock": 12,
+        "discountPercentage": 0,
+        "description": "The Biology Discovery Kit allows kids to explore the wonders of the natural world. It includes tools such as a magnifying glass, specimen jars, and a field guide to identify plants, insects, and other organisms. With this kit, children can develop an appreciation for biodiversity, learn about ecosystems, and conduct simple experiments to understand biological concepts."
+    },
+    {
+        "toyName": "Physics Experiment Set",
+        "picURL": "https://img.freepik.com/free-photo/depressed-patient-is-getting-treatment-from-psychologist_53876-14353.jpg?w=1380&t=st=1684507532~exp=1684508132~hmac=43fdc690c711432bffd9368b1419d2e4d4e6007e6481792362828c429fb105c1",
+        "sellerName": "Physics Wizards",
+        "sellerEmail": "contact@physicswizards.com",
+        "category": "Science Kits",
+        "price": 29.99,
+        "rating": 4.2,
+        "availableStock": 20,
+        "discountPercentage": 15,
+        "description": "The Physics Experiment Set is an engaging kit that allows kids to explore the fundamental principles of physics. It includes materials such as pulleys, magnets, and inclined planes, along with a guidebook for conducting experiments. With this kit, children can learn about forces, motion, and energy while conducting hands-on experiments that demonstrate key physics concepts."
+    },
+    {
+        "toyName": "Geology Excavation Kit",
+        "picURL": "https://img.freepik.com/free-photo/euro-money-coins-with-loader-isolated-white-space_268835-1207.jpg?w=1380&t=st=1684507261~exp=1684507861~hmac=57c0ba47e767aa69cea8f080d0fd77fa63e79f43c4eb99b571177a626e701099",
+        "sellerName": "Earth Explorers",
+        "sellerEmail": "info@earthexplorers.com",
+        "category": "Science Kits",
+        "price": 24.99,
+        "rating": 4.1,
+        "availableStock": 18,
+        "discountPercentage": 0,
+        "description": "The Geology Excavation Kit is a hands-on learning tool that introduces kids to the fascinating world of geology. It includes excavation tools, rocks, and minerals for kids to uncover and identify. With this kit, children can learn about different rock types, geological formations, and the processes that shape our planet."
     },
     {
         "toyName": "Microscope Discovery Kit",
@@ -21,7 +56,6 @@
         "price": 34.99,
         "rating": 4.2,
         "availableStock": 15,
-        "id": "SK5678",
         "discountPercentage": 0,
         "description": "The Microscope Discovery Kit provides young scientists with an up-close and personal look at the microscopic world. The kit includes a high-quality microscope, slides, coverslips, and other accessories. Children can explore a wide range of specimens, from plant cells to tiny organisms, and learn about their structures and functions. With adjustable magnification and built-in illumination, this kit offers a fascinating journey into the wonders of the microscopic realm."
     },
@@ -34,9 +68,20 @@
         "price": 27.99,
         "rating": 4.8,
         "availableStock": 12,
-        "id": "SK9012",
         "discountPercentage": 15,
         "description": "The Solar Power Experiment Set introduces kids to the fascinating world of renewable energy. With this kit, children can build their own solar-powered devices, such as a mini fan, a solar car, or a solar-powered light. They'll learn about the principles of solar energy, how solar panels work, and the importance of sustainable energy sources. This hands-on kit sparks creativity and environmental awareness while providing a fun and educational experience."
+    },
+    {
+        "toyName": "Weather Science Kit",
+        "picURL": "https://img.freepik.com/free-photo/close-up-thermometer-showing-high-temperature_23-2149456775.jpg?w=1380&t=st=1684507085~exp=1684507685~hmac=054569a9c5136298be03115f096611c9d99f4ce3c26462cbfed7e35bc272a687",
+        "sellerName": "Meteorology Matters",
+        "sellerEmail": "info@meteorologymatters.com",
+        "category": "Science Kits",
+        "price": 34.99,
+        "rating": 4.4,
+        "availableStock": 14,
+        "discountPercentage": 0,
+        "description": "The Weather Science Kit is an educational tool that helps children understand the science behind weather phenomena. It includes instruments such as a thermometer, barometer, and wind vane, along with a guidebook for conducting weather experiments. With this kit, kids can learn about meteorology, observe weather patterns, and make predictions based on their observations."
     },
     {
         "toyName": "Alphabet Adventure Kit",
@@ -47,7 +92,6 @@
         "price": 19.99,
         "rating": 4.7,
         "availableStock": 25,
-        "id": "LK3456",
         "discountPercentage": 5,
         "description": "The Alphabet Adventure Kit is an engaging learning tool that helps children develop their literacy skills in a fun and interactive way. It includes a set of colorful flashcards, activity books, and games designed to teach letter recognition, phonics, and basic vocabulary. With the Alphabet Adventure Kit, kids can embark on a learning journey filled with exploration and discovery, laying a strong foundation for reading and language development."
     },
@@ -60,7 +104,6 @@
         "price": 29.99,
         "rating": 4.4,
         "availableStock": 18,
-        "id": "LK7890",
         "discountPercentage": 0,
         "description": "The Math Mastermind Set is a comprehensive kit designed to make math learning engaging and enjoyable. It includes a variety of math manipulatives, puzzles, and interactive games that cover various math concepts, from basic arithmetic to geometry and problem-solving. With this set, kids can develop critical thinking skills, enhance their numeracy abilities, and build confidence in math. The Math Mastermind Set is an excellent resource for both classroom and home learning."
     },
@@ -73,9 +116,56 @@
         "price": 22.99,
         "rating": 4.9,
         "availableStock": 10,
-        "id": "LK1234",
         "discountPercentage": 10,
         "description": "The Geography Explorer Kit takes children on a global adventure, exploring continents, countries, and cultures. The kit includes maps, flashcards, activity booklets, and interactive resources that make learning geography exciting and immersive. Kids can learn about landmarks, flags, languages, and geographical features while developing their spatial awareness and understanding of the world. The Geography Explorer Kit is a fantastic educational tool for fostering a sense of curiosity and broadening children's horizons."
+    },
+    {
+        "toyName": "STEAM Exploration Kit",
+        "picURL": "https://img.freepik.com/free-photo/top-view-picture-frame-with-colorful-pencils-dark-surface-art-color-drawing-college-copybook-school-notepad_140725-108970.jpg?w=1380&t=st=1684510660~exp=1684511260~hmac=96be99cb17488873e2735d231a4fe963d3102c35009c638421cd7d75090b86bf",
+        "sellerName": "STEAM Innovators",
+        "sellerEmail": "info@steaminnovators.com",
+        "category": "Learning Kits",
+        "price": 49.99,
+        "rating": 4.8,
+        "availableStock": 10,
+        "discountPercentage": 0,
+        "description": "The STEAM Exploration Kit is a versatile learning tool that combines science, technology, engineering, arts, and mathematics. It includes a variety of materials and activities that foster creativity, problem-solving, and critical thinking. With this kit, kids can engage in hands-on experiments, art projects, and design challenges, allowing them to explore and integrate multiple disciplines."
+    },
+    {
+        "toyName": "Language Learning Set",
+        "picURL": "https://img.freepik.com/free-photo/english-book-resting-table-working-space_23-2149429577.jpg?w=1380&t=st=1684512258~exp=1684512858~hmac=3c32ad8d85936a5a29e666250f4325bb48793647a606b5e8569e6353be279b2b",
+        "sellerName": "Linguistic Legends",
+        "sellerEmail": "contact@linguisticlegends.com",
+        "category": "Learning Kits",
+        "price": 24.99,
+        "rating": 4.1,
+        "availableStock": 18,
+        "discountPercentage": 0,
+        "description": "The Language Learning Set is a comprehensive kit designed to help children develop their language skills in a fun and interactive way. It includes flashcards, games, and audio resources to teach vocabulary, grammar, and conversational phrases. With this kit, kids can explore different languages, improve their pronunciation, and gain confidence in their language abilities."
+    },
+    {
+        "toyName": "Coding Adventure Kit",
+        "picURL": "https://img.freepik.com/free-photo/young-engineer-working-new-school-project-robotics_74855-22804.jpg?w=1380&t=st=1684508880~exp=1684509480~hmac=307450323aad3f0779526cb642bb70a2e8c0798d219c123966acee825c27577c",
+        "sellerName": "CodeMasters",
+        "sellerEmail": "info@codemasters.com",
+        "category": "Learning Kits",
+        "price": 34.99,
+        "rating": 4.4,
+        "availableStock": 14,
+        "discountPercentage": 15,
+        "description": "The Coding Adventure Kit is an immersive learning tool that introduces kids to the world of coding and computer science. It includes a coding board, programming cards, and a guidebook to teach the fundamentals of coding through engaging activities and challenges. With this kit, kids can develop problem-solving skills, logical thinking, and computational creativity while having fun with coding."
+    },
+    {
+        "toyName": "Solar System Exploration Kit",
+        "picURL": "https://img.freepik.com/free-photo/medium-shot-kid-wearing-spacesuit_23-2149631657.jpg?w=1380&t=st=1684510475~exp=1684511075~hmac=c8527db541dc40119a87af11c79b7dbac8da95e7392f04752a51b4be0f2ec80d",
+        "sellerName": "Stellar Explorers",
+        "sellerEmail": "sales@stellarexplorers.com",
+        "category": "Learning Kits",
+        "price": 39.99,
+        "rating": 4.7,
+        "availableStock": 12,
+        "discountPercentage": 0,
+        "description": "The Solar System Exploration Kit is an educational tool that enables children to explore the wonders of our solar system. It includes models of planets, a star projector, and an informational booklet to learn about the sun, planets, and celestial bodies. With this kit, kids can deepen their understanding of astronomy, develop scientific inquiry skills, and foster a sense of wonder about the universe."
     },
     {
         "toyName": "Build Your Own Robot Set",
@@ -86,7 +176,6 @@
         "price": 39.99,
         "rating": 4.6,
         "availableStock": 20,
-        "id": "EK5678",
         "discountPercentage": 0,
         "description": "The Build Your Own Robot Set sparks creativity and problem-solving skills in young engineers. This kit contains a variety of modular components, including motors, sensors, and building blocks, that can be assembled to create different types of robots. With step-by-step instructions and interactive learning resources, kids can explore the principles of robotics, coding, and mechanical engineering while building and customizing their own robotic creations. The Build Your Own Robot Set is a perfect blend of fun and education, inspiring young minds to become future innovators."
     },
@@ -99,7 +188,6 @@
         "price": 49.99,
         "rating": 4.3,
         "availableStock": 15,
-        "id": "EK9012",
         "discountPercentage": 20,
         "description": "The Structural Engineering Kit is an exciting kit that introduces kids to the principles of structural engineering and architecture. It includes various building materials, such as rods, connectors, and panels, allowing children to construct and test their own bridges, towers, and other structures. With hands-on experiments and engineering challenges, kids can learn about the strength of materials, load-bearing capacities, and design principles. The Structural Engineering Kit encourages critical thinking, problem-solving, and creativity in aspiring young engineers."
     },
@@ -112,8 +200,56 @@
         "price": 32.99,
         "rating": 4.7,
         "availableStock": 12,
-        "id": "EK3456",
         "discountPercentage": 0,
         "description": "The Electric Circuits Challenge Set is an interactive kit that introduces children to the world of electrical circuits and electronics. With this set, kids can build various circuits using components like resistors, capacitors, and LED lights. They can experiment with different circuit configurations, learn about conductivity and resistance, and explore the basics of circuit design. The Electric Circuits Challenge Set encourages hands-on exploration, problem-solving, and a deeper understanding of the fundamental principles of electricity."
-    }
+    },
+    {
+        "toyName": "Renewable Energy Discovery Kit",
+        "picURL": "https://img.freepik.com/free-photo/business-person-planning-alternative-energies_23-2149205425.jpg?w=1380&t=st=1684512644~exp=1684513244~hmac=a95000d62e82ec9577b4796077fbf90edcea744e5ea9430944502099f6baa27d",
+        "sellerName": "EcoTech",
+        "sellerEmail": "info@ecotech.com",
+        "category": "Engineering Kits",
+        "price": 54.99,
+        "rating": 4.7,
+        "availableStock": 12,
+        "discountPercentage": 0,
+        "description": "The Renewable Energy Discovery Kit is an educational tool that introduces kids to the concept of renewable energy sources. It includes components such as solar panels, wind turbines, and a rechargeable battery, allowing children to build and experiment with renewable energy systems. With this kit, kids can learn about clean energy, sustainability, and environmental stewardship."
+    },
+    {
+        "toyName": "Architectural Model Design Set",
+        "picURL": "https://img.freepik.com/free-photo/construction-concept-engineering-tools_1150-17789.jpg?w=1380&t=st=1684511514~exp=1684512114~hmac=6d3ffe3c191e550fc264b650d5a91dfa2dd77a3438fd9fb68e83361498656659",
+        "sellerName": "Architectural Wonders",
+        "sellerEmail": "sales@architecturalwonders.com",
+        "category": "Engineering Kits",
+        "price": 44.99,
+        "rating": 4.4,
+        "availableStock": 14,
+        "discountPercentage": 15,
+        "description": "The Architectural Model Design Set allows kids to unleash their creativity and explore the world of architecture. It includes various materials such as foam boards, craft sticks, and glue for designing and constructing architectural models. With this kit, children can learn about scale, proportion, and spatial relationships while bringing their architectural visions to life."
+    },
+    {
+        "toyName": "Hydraulic Engineering Set",
+        "picURL": "https://img.freepik.com/free-photo/tools-materials-sanitary-works_93675-131721.jpg?w=1380&t=st=1684512561~exp=1684513161~hmac=980b6c252840c446eb0ff6efd4386d29facb04698d80e15d3563b52387af609a",
+        "sellerName": "HydroMech",
+        "sellerEmail": "info@hydromech.com",
+        "category": "Engineering Kits",
+        "price": 34.99,
+        "rating": 4.3,
+        "availableStock": 16,
+        "discountPercentage": 0,
+        "description": "The Hydraulic Engineering Set is an engaging kit that introduces kids to the principles of hydraulic systems. It includes syringes, tubing, and connectors for building working hydraulic models. With this kit, children can learn about fluid mechanics, pressure, and force as they create and operate their hydraulic mechanisms."
+    },
+    {
+        "toyName": "Electronics Starter Kit",
+        "picURL": "https://img.freepik.com/free-photo/close-up-electronic-components_23-2148419099.jpg?w=1380&t=st=1684512086~exp=1684512686~hmac=7533eb16afdc2e2cfb24d733a8f0624ee39d347b61cd77ee35c5b9ad82217b0b",
+        "sellerName": "ElectroTech",
+        "sellerEmail": "info@electrotech.com",
+        "category": "Engineering Kits",
+        "price": 29.99,
+        "rating": 4.2,
+        "availableStock": 20,
+        "discountPercentage": 0,
+        "description": "The Electronics Starter Kit is designed to introduce kids to the world of electronics and circuits. It includes a variety of electronic components such as resistors, capacitors, and LEDs, along with a breadboard and guidebook for hands-on learning. With this kit, children can explore the basics of circuitry, learn about electronic components, and build simple electronic projects."
+      }
+      
 ]
