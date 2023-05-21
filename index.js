@@ -9,7 +9,6 @@ const port = process.env.Port || 5000;
 app.use(cors());
 app.use(express.json());
 
-
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.qupsx4j.mongodb.net/?retryWrites=true&w=majority`;
 
 // Created a MongoClient object to set the Stable API version
@@ -23,7 +22,7 @@ const client = new MongoClient(uri, {
 
 async function run() {
     try {
-        // Connect the client to the server	(optional starting in v4.7)
+        // Connect the client to the server (optional starting in v4.7)
         // await client.connect();
 
         const toyCollections = client.db("toyCollection").collection("allToys");
@@ -71,7 +70,6 @@ async function run() {
 
         })
 
-
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } finally {
@@ -88,3 +86,4 @@ app.get('/', async (req, res) => {
 app.listen(port, () => {
     console.log(`My toy website is Running on Port: ${port}`);
 });
+
