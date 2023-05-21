@@ -23,11 +23,11 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
         // Connect the client to the server (optional starting in v4.7)
-        // await client.connect();
+        client.connect();
 
         const toyCollections = client.db("toyCollection").collection("allToys");
         const usersToyCollection = client.db("toyCollection").collection('usersToy');
-        console.log(toyCollections);
+        // console.log(toyCollections);
 
         // to get all data from server.
         app.get('/toys', async (req, res) => {
@@ -47,28 +47,49 @@ async function run() {
             // console.log(id);
             const query = { _id: new ObjectId(id) };
             const result = await toyCollections.findOne(query);
+            console.log(result);
             res.send(result);
             // console.log(result);
         })
         // post new toy from client side
-        app.post('/addNewToy', async (req, res) => {
+        app.post('/myToys', async (req, res) => {
             const newToy = req.body;
-            console.log(newToy);
+            // console.log(newToy);
             const result = await usersToyCollection.insertOne(newToy);
             res.send(result);
         })
+        // get user specific toy information
         app.get('/myToys', async (req, res) => {
             // console.log(req.query.email);
             let query = {};
             if(req.query?.email){
                 query = {sellerEmail: req.query.email}
-                console.log(query);
+                // console.log(query);
             }
             const result = await usersToyCollection.find(query).toArray();
             res.send(result);
             // console.log(result);
-
         })
+
+        // delete specific toy
+        app.delete('/myToys/:id', async (req, res) => {
+            const id = req.params.id;
+            // console.log(id);
+            const query = { _id: new ObjectId(id) };
+            const result = await usersToyCollection.deleteOne(query);
+            res.send(result);
+        })
+
+        
+        // search toy by Toyname
+        // app.get('/searchToy/:text', async (req, res) => {
+        //     const query = req.params.text;
+        //     console.log(query);
+        //     if(!query) {
+        //         return res.status(400).json({ message: "Please enter a Toyname" });
+        //     }
+        //     const result = await toyCollections.find({ toyName: { $regex: query, $options: "i" } }).toArray();
+        // })
 
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
