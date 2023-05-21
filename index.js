@@ -24,11 +24,11 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
-        await client.connect();
+        // await client.connect();
 
         const toyCollections = client.db("toyCollection").collection("allToys");
         const usersToyCollection = client.db("toyCollection").collection('usersToy');
-        // console.log(toyCollections);
+        console.log(toyCollections);
 
         // to get all data from server.
         app.get('/toys', async (req, res) => {
@@ -58,12 +58,18 @@ async function run() {
             const result = await usersToyCollection.insertOne(newToy);
             res.send(result);
         })
+        app.get('/myToys', async (req, res) => {
+            // console.log(req.query.email);
+            let query = {};
+            if(req.query?.email){
+                query = {sellerEmail: req.query.email}
+                console.log(query);
+            }
+            const result = await usersToyCollection.find(query).toArray();
+            res.send(result);
+            // console.log(result);
 
-        // app.get('/sciencekits', async (req, res) => {
-        //     const cursor = toyCollections.find();
-        //     const result = await cursor.toArray();
-        //     res.send(result);
-        // })
+        })
 
 
         await client.db("admin").command({ ping: 1 });
