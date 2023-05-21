@@ -27,6 +27,7 @@ async function run() {
         await client.connect();
 
         const toyCollections = client.db("toyCollection").collection("allToys");
+        const usersToyCollection = client.db("toyCollection").collection('usersToy');
         // console.log(toyCollections);
 
         // to get all data from server.
@@ -50,18 +51,27 @@ async function run() {
             res.send(result);
             // console.log(result);
         })
-        app.get('/sciencekits', async (req, res) => {
-            const cursor = toyCollections.find();
-            const result = await cursor.toArray();
+        // post new toy from client side
+        app.post('/addNewToy', async (req, res) => {
+            const newToy = req.body;
+            console.log(newToy);
+            const result = await usersToyCollection.insertOne(newToy);
             res.send(result);
         })
+
+        // app.get('/sciencekits', async (req, res) => {
+        //     const cursor = toyCollections.find();
+        //     const result = await cursor.toArray();
+        //     res.send(result);
+        // })
+
 
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } finally {
         // Ensures that the client will close when you finish/error
         // await client.close();
-      }
+    }
 }
 run().catch(console.dir);
 
